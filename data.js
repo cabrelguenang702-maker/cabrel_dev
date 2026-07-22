@@ -5,7 +5,7 @@
 
 const SOCIALS = {
     instagram: "https://www.instagram.com/cabrel_dev?igsh=ZHZvd2xkeGZ5aG1z",
-    telegram: "https://t.me/cabreldev",
+    telegram: "https://t.me/Cabreldev",
     facebook: "https://www.facebook.com/profile.php?id=61592451110647",
     whatsapp: "https://wa.me/237697186564",
     whatsappNumber: "697186564",
