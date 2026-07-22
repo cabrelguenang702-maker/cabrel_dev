@@ -51,25 +51,25 @@ const DEVIS_PLANS = {
         label: "Site web vitrine",
         unit: "FCFA",
         plans: [
-            { id: "basic", label: "Basique", desc: "1 à 3 pages, design simple, formulaire de contact." },
-            { id: "standard", label: "Standard", desc: "4 à 6 pages, animations, galerie, responsive avancé." },
-            { id: "business", label: "Business", desc: "7+ pages, fonctionnalités avancées, SEO poussé, design premium." },
+            { id: "basic", label: "Basique", min: 70000, max: 75000, desc: "1 à 3 pages, design simple, formulaire de contact." },
+            { id: "standard", label: "Standard",min: 70000, max: 75000, desc: "4 à 6 pages, animations, galerie, responsive avancé." },
+            { id: "business", label: "Business", min: 70000, max: 75000, desc: "7+ pages, fonctionnalités avancées, SEO poussé, design premium." },
         ],
     },
     flyers: {
         label: "Flyer",
         unit: "FCFA",
-        plans: [{ id: "flyer-complet", label: "Conception complète", desc: "Conception complète d'un flyer professionnel, prêt à imprimer ou publier." }],
+        plans: [{ id: "flyer-complet", label: "Conception complète",min: 4000, max: 4000, desc: "Conception complète d'un flyer professionnel, prêt à imprimer ou publier." }],
     },
     "cartes-mariage": {
         label: "Carte de mariage",
         unit: "FCFA",
-        plans: [{ id: "mariage-complet", label: "Conception complète", desc: "Conception complète d'une carte de mariage personnalisée en fonction du design du client." }],
+        plans: [{ id: "mariage-complet", label: "Conception complète",min: 4000, max: 4000, desc: "Conception complète d'une carte de mariage personnalisée en fonction du design du client." }],
     },
     "cartes-obseques": {
         label: "Carte d'obsèques",
         unit: "FCFA",
-        plans: [{ id: "obseques-complet", label: "Conception complète", desc: "Conception complète d'une carte d'obsèques sobre et respectueuse." }],
+        plans: [{ id: "obseques-complet", label: "Conception complète",min: 4000, max: 4000, desc: "Conception complète d'une carte d'obsèques sobre et respectueuse." }],
     },
 };
 
