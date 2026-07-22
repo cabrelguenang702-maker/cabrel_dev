@@ -293,7 +293,7 @@ function renderPlans() {
       (p) => `
     <div class="plan-card ${p.id === devisState.plan ? "selected" : ""}" data-plan="${p.id}">
       <h4>${p.label}</h4>
-      <div class="plan-price">${p.min === p.max ? p.min.toLocaleString("fr-FR") : p.min.toLocaleString("fr-FR") + " - " + p.max.toLocaleString("fr-FR")} <span>${catData.unit}</span></div>
+      <!--<div class="plan-price">${p.min === p.max ? p.min.toLocaleString("fr-FR") : p.min.toLocaleString("fr-FR") + " - " + p.max.toLocaleString("fr-FR")} <span>${catData.unit}</span></div>-->
       <p>${p.desc}</p>
     </div>`
     )
@@ -315,7 +315,7 @@ function renderSummary() {
   const summary = document.getElementById("devis-summary");
   summary.innerHTML = `
     <span><strong>${catData.label}</strong> — ${plan.label}</span>
-    <span class="price">${plan.min === plan.max ? plan.min.toLocaleString("fr-FR") : plan.min.toLocaleString("fr-FR") + " - " + plan.max.toLocaleString("fr-FR")} ${catData.unit}</span>
+    <!---<span class="price">${plan.min === plan.max ? plan.min.toLocaleString("fr-FR") : plan.min.toLocaleString("fr-FR") + " - " + plan.max.toLocaleString("fr-FR")} ${catData.unit}</span>--->
   `;
 }
 
@@ -338,8 +338,8 @@ function onDevisSubmit(e) {
   genererDevisPDF({
     categorie: catData.label,
     planLabel: plan.label,
-    //prixMin: plan.min,
-    //prixMax: plan.max,
+    prixMin: plan.min,
+    prixMax: plan.max,
     unite: catData.unit,
     nom: form.nom.value,
     telephone: form.telephone.value,
