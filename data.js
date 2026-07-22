@@ -79,7 +79,7 @@ const REALISATIONS = {
         // { titre: "L'Éclat Traiteur", client: "L'Éclat Traiteur — 6XX XXX XXX", lien: "https://exemple.com" },
     ],
     flyers: [
-        // { titre: "Flyer promo restaurant", client: "Chez Mama — 6XX XXX XXX", image: "assets/flyer-1.jpg" },
+          { titre: "carine rose traiteur", client: "Chez carine traiteur — +237 687452844", image: "assets/carine.jpg" },
     ],
     cartes: [
         // { titre: "Carte de mariage Aïcha & Paul", client: "6XX XXX XXX", image: "assets/carte-1.jpg" },
