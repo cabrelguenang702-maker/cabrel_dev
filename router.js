@@ -338,8 +338,8 @@ function onDevisSubmit(e) {
   genererDevisPDF({
     categorie: catData.label,
     planLabel: plan.label,
-    prixMin: plan.min,
-    prixMax: plan.max,
+    //prixMin: plan.min,
+    //prixMax: plan.max,
     unite: catData.unit,
     nom: form.nom.value,
     telephone: form.telephone.value,
